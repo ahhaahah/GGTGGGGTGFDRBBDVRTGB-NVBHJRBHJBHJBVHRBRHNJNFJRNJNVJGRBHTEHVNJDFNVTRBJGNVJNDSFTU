@@ -114,10 +114,12 @@ Discord API: ${client.ping.toFixed(0)} ms\`\`\``);
     });
     }
 });
-
-
-
-
+client.on('message', msg => {fuck you
+  if (msg.content === 'discord.gg') {
+   msg.delete(30)
+    msg.reply('ممنوع');
+  }
+});
 
 
 
