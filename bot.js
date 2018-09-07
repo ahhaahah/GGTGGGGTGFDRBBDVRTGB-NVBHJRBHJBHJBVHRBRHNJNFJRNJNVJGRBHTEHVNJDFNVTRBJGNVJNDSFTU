@@ -30,7 +30,7 @@ client.user.setGame(` !help `,"https://www.twitch.tv/NICKMERCS")
 
 client.on("message", message => {
               var args = message.content.substring(prefix.length).split(" ");
-              if (message.content.startsWith(prefix ! "clear")) {
+              if (message.content.startsWith(prefix + "clear")) {
                   if(!message.channel.guild) return message.reply('**❌ ليس لديك رتبة ادمن **');         
      if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**🚫  MANAGE_MESSAGES ليس لديك رتبة ادمن او بريم 🚫 **');
           var msg;
