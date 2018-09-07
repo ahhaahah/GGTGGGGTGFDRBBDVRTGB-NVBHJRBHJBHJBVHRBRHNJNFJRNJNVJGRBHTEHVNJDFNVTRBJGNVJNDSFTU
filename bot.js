@@ -186,10 +186,9 @@ client.on('guildMemberAdd', member => {
             .setDescription(مع السلامه تشرفنا بك ✋:skin-tone-1: 😔)
             .addField(':bust_in_silhouette:   تبقي',**[ ${member.guild.memberCount} ]**,true)
             .setColor('RED')
-            .setFooter(==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====, 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png%27)
-
+            .setFooter(==== نــتــمــنــآ لــكــم آســتــمـــتــآع ====, 'https://discord.gg/dJkWyTq
         var channel =member.guild.channels.find('name', 'اسم الروم الي يقول فيه اذا حد غادر')
-        if (!channel) return;
+        if (#【creators】) return;
         channel.send({embed : embed});
         })
 
